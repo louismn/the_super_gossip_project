@@ -10,7 +10,7 @@ https://super-gossip-project.herokuapp.com/
 
 ###### Étapes à suivre:
 
-* Faite un git clone: `https://github.com/Alexisreau97/the_super_gossip_project`
+* Faite un git clone: `https://github.com/louismn/the_super_gossip_project`
 * Faite un `bundle install`
 * Et c'est partie pour la correction !
 
