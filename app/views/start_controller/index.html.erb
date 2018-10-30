@@ -1,0 +1,19 @@
+<h1>Accueil</h1>
+
+<h2>Bienvenue</h2>
+
+<p>Ici c'est notre super site de potins, il est chouette, non ?</p>
+
+<div>
+<% @gossips.each do |x| %>
+	<div class="card" style="width: 18rem;">
+	  <div class="card-body">
+	    <h5 class="card-title"><%= x.author%></h5>
+	    <p class="card-text"><%= x.content%></p>
+	    <a href="/gossip/<%=x.id%>" class="btn btn-primary">Go somewhere</a>
+	  </div>
+	</div>
+	</br>
+<% end%>
+
+</div>
